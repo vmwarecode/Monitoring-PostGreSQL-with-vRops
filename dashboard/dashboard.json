@@ -1,0 +1,1312 @@
+{
+   "dashboards": [
+      {
+         "autoswitchEnabled": false,
+         "columnCount": 1,
+         "columnProportion": "1",
+         "creationTime": 1525474059036,
+         "description": "",
+         "disabled": false,
+         "hidden": false,
+         "homeTab": false,
+         "id": "1f0742b7-f623-48b8-9cba-9874f344c924",
+         "importAttempts": 0,
+         "importComplete": true,
+         "isDefault": false,
+         "locked": false,
+         "name": "Lucky Proposal/PostgreSQL Server",
+         "namePath": "Lucky Proposal",
+         "rank": 104,
+         "shared": false,
+         "temporary": false,
+         "userId": "c5fc5664-8a26-4eec-a10e-22582ca421ba",
+         "widgetInteractions": [
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "c13cb4b3-d435-4ec1-a592-69bb63d4406a",
+               "widgetIdReceiver": "47dbd988-e204-4cc2-9cd8-478372d774cc"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "c13cb4b3-d435-4ec1-a592-69bb63d4406a",
+               "widgetIdReceiver": "69cb8bf6-4efd-4db7-a6b6-75791c286ed8"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "c13cb4b3-d435-4ec1-a592-69bb63d4406a",
+               "widgetIdReceiver": "5a0cc3f6-3e52-4a29-9392-2422507f3ed8"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "c13cb4b3-d435-4ec1-a592-69bb63d4406a",
+               "widgetIdReceiver": "6f4a5201-ec17-4437-87ed-0ef9bfd1ab9e"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "c13cb4b3-d435-4ec1-a592-69bb63d4406a",
+               "widgetIdReceiver": "0b7ed713-a018-436f-8de7-5a0a12617684"
+            }
+         ],
+         "widgets": [
+            {
+               "collapsed": false,
+               "config": {
+                  "additionalColumns": [],
+                  "mode": 0,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "tagFilter": {
+                     "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                     "value": {
+                        "adapterInstance": [],
+                        "adapterKind": [],
+                        "bus": [],
+                        "collector": [],
+                        "day": [],
+                        "exclaim": false,
+                        "healthRange": [],
+                        "kind": ["resourceKind:id:0_::_"],
+                        "maintenanceSchedule": [],
+                        "state": [],
+                        "status": [],
+                        "tag": [],
+                        "tier": []
+                     }
+                  },
+                  "title": "Servers"
+               },
+               "gridsterCoords": {
+                  "h": 14,
+                  "w": 1,
+                  "x": 1,
+                  "y": 1
+               },
+               "height": 780,
+               "id": "c13cb4b3-d435-4ec1-a592-69bb63d4406a",
+               "states": [{
+                  "key": "permResGrid_widget_1f0742b7-f623-48b8-9cba-9874f344c924_c13cb4b3-d435-4ec1-a592-69bb63d4406a",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A40%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A40%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }],
+               "title": "Servers",
+               "type": "ResourceList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 2,
+                  "boxHeight": null,
+                  "labelSize": 12,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2645-1",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|Connections",
+                           "metricName": "UTILIZATION|Connections",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2645-2",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|ConnectionsUsage",
+                           "metricName": "UTILIZATION|Connections Usage",
+                           "metricUnitId": -1,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": "Auto"
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2645-3",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|CpuSystemTimeperMinute",
+                           "metricName": "UTILIZATION|Cpu System Time per Minute",
+                           "metricUnitId": -1,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": "Auto"
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2645-4",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|CpuUserTimeperMinute",
+                           "metricName": "UTILIZATION|Cpu User Time per Minute",
+                           "metricUnitId": -1,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": "Auto"
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2645-5",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|NumberofProcesses",
+                           "metricName": "UTILIZATION|Number of Processes",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel3096-1",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|CpuUsage",
+                           "metricName": "UTILIZATION|Cpu Usage",
+                           "metricUnitId": -1,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": "Auto"
+                        }
+                     ],
+                     "resourceMetrics": []
+                  },
+                  "mode": {"layoutMode": "fixedView"},
+                  "periodLength": "last24Hour",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": 0,
+                  "resInteractionMode": null,
+                  "roundDecimals": null,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": false},
+                  "title": "Utilization",
+                  "valueSize": 24,
+                  "visualTheme": 6
+               },
+               "gridsterCoords": {
+                  "h": 7,
+                  "w": 3,
+                  "x": 3,
+                  "y": 1
+               },
+               "height": 381,
+               "id": "47dbd988-e204-4cc2-9cd8-478372d774cc",
+               "title": "Utilization",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 2,
+                  "boxHeight": null,
+                  "labelSize": 12,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel5413-1",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|BufferHitsperSecond",
+                           "metricName": "THROUGHPUT|Buffer Hits per Second",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel5413-2",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|BufferHits%",
+                           "metricName": "THROUGHPUT|Buffer Hits %",
+                           "metricUnitId": -1,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": "Auto"
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel5413-3",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|Commits",
+                           "metricName": "THROUGHPUT|Commits",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel5413-4",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|CommitsperSecond",
+                           "metricName": "THROUGHPUT|Commits per Second",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel5413-5",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|Rollbacks",
+                           "metricName": "THROUGHPUT|Rollbacks",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel5413-6",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|RollbacksperSecond",
+                           "metricName": "THROUGHPUT|Rollbacks per Second",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:0_::_",
+                           "resourceKindName": "PostgreSQL",
+                           "unit": null
+                        }
+                     ],
+                     "resourceMetrics": []
+                  },
+                  "mode": {"layoutMode": "fixedView"},
+                  "periodLength": null,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": 0,
+                  "resInteractionMode": null,
+                  "roundDecimals": null,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": false},
+                  "title": "Throughput",
+                  "valueSize": 24,
+                  "visualTheme": 6
+               },
+               "gridsterCoords": {
+                  "h": 7,
+                  "w": 3,
+                  "x": 3,
+                  "y": 8
+               },
+               "height": 381,
+               "id": "69cb8bf6-4efd-4db7-a6b6-75791c286ed8",
+               "title": "Throughput",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {},
+               "gridsterCoords": {
+                  "h": 10,
+                  "w": 1,
+                  "x": 2,
+                  "y": 5
+               },
+               "height": 552,
+               "id": "5a0cc3f6-3e52-4a29-9392-2422507f3ed8",
+               "states": [{
+                  "key": "permResourceRelationship_widget_1f0742b7-f623-48b8-9cba-9874f344c924_5a0cc3f6-3e52-4a29-9392-2422507f3ed8",
+                  "value": "o%3A"
+               }],
+               "title": "Object Relationship",
+               "type": "ResourceRelationship"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 1,
+                  "boxHeight": 160,
+                  "labelSize": 48,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [{
+                        "colorMethod": 1,
+                        "id": "extModel6837-1",
+                        "isStringMetric": false,
+                        "metricKey": "AVAILABILITY|ResourceAvailability",
+                        "metricName": "AVAILABILITY|Resource Availability",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:0_::_",
+                        "resourceKindName": "PostgreSQL",
+                        "unit": null
+                     }],
+                     "resourceMetrics": []
+                  },
+                  "mode": {"layoutMode": "fixedSize"},
+                  "periodLength": null,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": 0,
+                  "resInteractionMode": null,
+                  "roundDecimals": null,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": false},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": false},
+                  "title": "Availability",
+                  "valueSize": 48,
+                  "visualTheme": 6
+               },
+               "gridsterCoords": {
+                  "h": 4,
+                  "w": 1,
+                  "x": 2,
+                  "y": 1
+               },
+               "height": 210,
+               "id": "6f4a5201-ec17-4437-87ed-0ef9bfd1ab9e",
+               "title": "Availability",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {},
+               "gridsterCoords": {
+                  "h": 14,
+                  "w": 1,
+                  "x": 6,
+                  "y": 1
+               },
+               "height": 780,
+               "id": "0b7ed713-a018-436f-8de7-5a0a12617684",
+               "title": "Top Alerts",
+               "type": "ProblemAlertsList"
+            }
+         ]
+      },
+      {
+         "autoswitchEnabled": false,
+         "columnCount": 1,
+         "columnProportion": "1",
+         "creationTime": 1525479040737,
+         "description": "",
+         "disabled": false,
+         "hidden": false,
+         "homeTab": false,
+         "id": "6f5eb954-25c0-4452-9ff0-46f114a0f433",
+         "importAttempts": 0,
+         "importComplete": true,
+         "isDefault": false,
+         "locked": false,
+         "name": "Lucky Proposal/PostGreSQL Database",
+         "namePath": "Lucky Proposal",
+         "rank": 105,
+         "shared": false,
+         "temporary": false,
+         "userId": "c5fc5664-8a26-4eec-a10e-22582ca421ba",
+         "widgetInteractions": [
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "ec48297b-94cb-420b-9275-4ee2ed7bfb30",
+               "widgetIdReceiver": "5a86fcea-6a76-4dcb-a674-28176fd3e6e5"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "ec48297b-94cb-420b-9275-4ee2ed7bfb30",
+               "widgetIdReceiver": "dd289454-e5a2-4e00-b50d-a0cbc0e00468"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "ec48297b-94cb-420b-9275-4ee2ed7bfb30",
+               "widgetIdReceiver": "f50e0d35-3288-41c4-b5a1-cf4c64983cb1"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "ec48297b-94cb-420b-9275-4ee2ed7bfb30",
+               "widgetIdReceiver": "3e40eb63-3316-4190-adbf-d851618dce15"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "ec48297b-94cb-420b-9275-4ee2ed7bfb30",
+               "widgetIdReceiver": "3d1b6e6a-7b97-450d-a622-f3d8c1f162bc"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "ec48297b-94cb-420b-9275-4ee2ed7bfb30",
+               "widgetIdReceiver": "6c0511ea-4c22-458d-b9ec-bcf2d1723a89"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "ec48297b-94cb-420b-9275-4ee2ed7bfb30",
+               "widgetIdReceiver": "d175db76-15ff-4912-9479-108110bb8920"
+            },
+            {
+               "type": "resourceId",
+               "widgetIdProvider": "ec48297b-94cb-420b-9275-4ee2ed7bfb30",
+               "widgetIdReceiver": "a79c3bfd-a12e-4a62-9894-7e669861dfbe"
+            }
+         ],
+         "widgets": [
+            {
+               "collapsed": true,
+               "config": {
+                  "additionalColumns": [],
+                  "mode": 0,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "selectFirstRow": {"selectFirstRow": false},
+                  "tagFilter": {
+                     "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                     "value": {
+                        "adapterInstance": [],
+                        "adapterKind": [],
+                        "bus": [],
+                        "collector": [],
+                        "day": [],
+                        "exclaim": false,
+                        "healthRange": [],
+                        "kind": ["resourceKind:id:1_::_"],
+                        "maintenanceSchedule": [],
+                        "state": [],
+                        "status": [],
+                        "tag": [],
+                        "tier": []
+                     }
+                  },
+                  "title": "Select Database"
+               },
+               "gridsterCoords": {
+                  "h": 1,
+                  "w": 6,
+                  "x": 1,
+                  "y": 1
+               },
+               "height": 210,
+               "id": "ec48297b-94cb-420b-9275-4ee2ed7bfb30",
+               "states": [{
+                  "key": "permResGrid_widget_6f5eb954-25c0-4452-9ff0-46f114a0f433_ec48297b-94cb-420b-9275-4ee2ed7bfb30",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A282%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }],
+               "title": "Select Database",
+               "type": "ResourceList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 5,
+                  "boxHeight": 10,
+                  "labelSize": 10,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2113-1",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|BufferHits",
+                           "metricName": "THROUGHPUT|Buffer Hits",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2113-2",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|BufferHits%",
+                           "metricName": "THROUGHPUT|Buffer Hits %",
+                           "metricUnitId": -1,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "Auto"
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2113-3",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|BufferHitsperSecond",
+                           "metricName": "THROUGHPUT|Buffer Hits per Second",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2113-4",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|BufferRead",
+                           "metricName": "THROUGHPUT|Buffer Read",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2113-5",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|BufferReadperSecond",
+                           "metricName": "THROUGHPUT|Buffer Read per Second",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        }
+                     ],
+                     "resourceMetrics": []
+                  },
+                  "mode": {"layoutMode": "fixedSize"},
+                  "periodLength": null,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": 0,
+                  "resInteractionMode": null,
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": false},
+                  "title": "Throughput Buffer",
+                  "valueSize": 24,
+                  "visualTheme": 6
+               },
+               "gridsterCoords": {
+                  "h": 2,
+                  "w": 4,
+                  "x": 1,
+                  "y": 5
+               },
+               "height": 96,
+               "id": "5a86fcea-6a76-4dcb-a674-28176fd3e6e5",
+               "title": "Throughput Buffer",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 2,
+                  "boxHeight": 10,
+                  "labelSize": 10,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel4135-1",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|RowsRead",
+                           "metricName": "THROUGHPUT|Rows Read",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel4135-2",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|RowsReadperSecond",
+                           "metricName": "THROUGHPUT|Rows Read per Second",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel4135-3",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|RowsWrite",
+                           "metricName": "THROUGHPUT|Rows Write",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel4135-4",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|RowsWriteperSecond",
+                           "metricName": "THROUGHPUT|Rows Write per Second",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        }
+                     ],
+                     "resourceMetrics": []
+                  },
+                  "mode": {"layoutMode": "fixedSize"},
+                  "periodLength": null,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": 0,
+                  "resInteractionMode": null,
+                  "roundDecimals": 3,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": false},
+                  "title": "Throughput Rows",
+                  "valueSize": 24,
+                  "visualTheme": 6
+               },
+               "gridsterCoords": {
+                  "h": 3,
+                  "w": 2,
+                  "x": 3,
+                  "y": 2
+               },
+               "height": 153,
+               "id": "dd289454-e5a2-4e00-b50d-a0cbc0e00468",
+               "title": "Throughput Rows",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 4,
+                  "boxHeight": 10,
+                  "labelSize": 10,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2464-1",
+                           "isStringMetric": false,
+                           "label": "",
+                           "metricKey": "THROUGHPUT|Commits",
+                           "metricName": "THROUGHPUT|Commits",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2464-2",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|CommitsperSecond",
+                           "metricName": "THROUGHPUT|Commits per Second",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2464-3",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|Rollbacks",
+                           "metricName": "THROUGHPUT|Rollbacks",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel2464-4",
+                           "isStringMetric": false,
+                           "metricKey": "THROUGHPUT|RollbacksperSecond",
+                           "metricName": "THROUGHPUT|Rollbacks per Second",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        }
+                     ],
+                     "resourceMetrics": []
+                  },
+                  "mode": {"layoutMode": "fixedSize"},
+                  "periodLength": "last24Hour",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": 0,
+                  "resInteractionMode": null,
+                  "roundDecimals": null,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": false},
+                  "title": "Throughput Commit / Rollbacks",
+                  "valueSize": 24,
+                  "visualTheme": 6
+               },
+               "gridsterCoords": {
+                  "h": 2,
+                  "w": 4,
+                  "x": 1,
+                  "y": 10
+               },
+               "height": 96,
+               "id": "f50e0d35-3288-41c4-b5a1-cf4c64983cb1",
+               "title": "Throughput Commit / Rollbacks",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 5,
+                  "boxHeight": null,
+                  "labelSize": 12,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel9211-1",
+                           "isStringMetric": false,
+                           "label": "Blocks Hit",
+                           "metricKey": "UTILIZATION|IndexesBlocksHit",
+                           "metricName": "UTILIZATION|Indexes Blocks Hit",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel9211-2",
+                           "isStringMetric": false,
+                           "label": "Blocks Hit per Minute",
+                           "metricKey": "UTILIZATION|IndexesBlocksHitperMinute",
+                           "metricName": "UTILIZATION|Indexes Blocks Hit per Minute",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel9211-3",
+                           "isStringMetric": false,
+                           "label": "Blocks Reads",
+                           "metricKey": "UTILIZATION|IndexesBlocksReads",
+                           "metricName": "UTILIZATION|Indexes Blocks Reads",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel9211-4",
+                           "isStringMetric": false,
+                           "label": "Blocks Reads pert Minute",
+                           "metricKey": "UTILIZATION|IndexesBlocksReadsperMinute",
+                           "metricName": "UTILIZATION|Indexes Blocks Reads per Minute",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel9211-5",
+                           "isStringMetric": false,
+                           "label": "Reads",
+                           "metricKey": "UTILIZATION|IndexesReads",
+                           "metricName": "UTILIZATION|Indexes Reads",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel9211-6",
+                           "isStringMetric": false,
+                           "label": "Reads per Minute",
+                           "metricKey": "UTILIZATION|IndexesReadsperMinute",
+                           "metricName": "UTILIZATION|Indexes Reads per Minute",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel9211-7",
+                           "isStringMetric": false,
+                           "label": "Scan Rows Read",
+                           "metricKey": "UTILIZATION|IndexesScanRowsRead",
+                           "metricName": "UTILIZATION|Indexes Scan Rows Read",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel9211-8",
+                           "isStringMetric": false,
+                           "label": "Scan Rows Read per Minute",
+                           "metricKey": "UTILIZATION|IndexesScanRowsReadperMinute",
+                           "metricName": "UTILIZATION|Indexes Scan Rows Read per Minute",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel9211-9",
+                           "isStringMetric": false,
+                           "label": "Scans",
+                           "metricKey": "UTILIZATION|IndexesScans",
+                           "metricName": "UTILIZATION|Indexes Scans",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel9211-10",
+                           "isStringMetric": false,
+                           "label": "Scans per Minute",
+                           "metricKey": "UTILIZATION|IndexesScansperMinute",
+                           "metricName": "UTILIZATION|Indexes Scans per Minute",
+                           "metricUnitId": null,
+                           "orangeBound": null,
+                           "redBound": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "",
+                           "yellowBound": null
+                        }
+                     ],
+                     "resourceMetrics": []
+                  },
+                  "mode": {"layoutMode": "fixedSize"},
+                  "periodLength": null,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": 0,
+                  "resInteractionMode": null,
+                  "roundDecimals": null,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": false},
+                  "title": "Utilization Indexes",
+                  "valueSize": 24,
+                  "visualTheme": 6
+               },
+               "gridsterCoords": {
+                  "h": 3,
+                  "w": 4,
+                  "x": 1,
+                  "y": 7
+               },
+               "height": 153,
+               "id": "3e40eb63-3316-4190-adbf-d851618dce15",
+               "title": "Utilization Indexes",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 3,
+                  "boxHeight": 45,
+                  "labelSize": 10,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel11165-1",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|Connections",
+                           "metricName": "UTILIZATION|Connections",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel11165-2",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|ConnectionsIdle",
+                           "metricName": "UTILIZATION|Connections Idle",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel11165-3",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|ConnectionsUsage",
+                           "metricName": "UTILIZATION|Connections Usage",
+                           "metricUnitId": -1,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "Auto"
+                        }
+                     ],
+                     "resourceMetrics": []
+                  },
+                  "mode": {"layoutMode": "fixedView"},
+                  "periodLength": "last12Hour",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": 0,
+                  "resInteractionMode": null,
+                  "roundDecimals": null,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": true},
+                  "title": "Utilization Connections",
+                  "valueSize": 48,
+                  "visualTheme": 6
+               },
+               "gridsterCoords": {
+                  "h": 4,
+                  "w": 2,
+                  "x": 5,
+                  "y": 2
+               },
+               "height": 210,
+               "id": "3d1b6e6a-7b97-450d-a622-f3d8c1f162bc",
+               "title": "Utilization Connections",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 3,
+                  "boxHeight": null,
+                  "labelSize": 12,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel13425-1",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|DataSpaceUsed",
+                           "metricName": "UTILIZATION|Data Space Used",
+                           "metricUnitId": -1,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "Auto"
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel13425-2",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|DatabaseSize",
+                           "metricName": "UTILIZATION|Database Size",
+                           "metricUnitId": -1,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "Auto"
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel13425-3",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|IndexSpaceUsed",
+                           "metricName": "UTILIZATION|Index Space Used",
+                           "metricUnitId": -1,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": "Auto"
+                        }
+                     ],
+                     "resourceMetrics": []
+                  },
+                  "mode": {"layoutMode": "fixedView"},
+                  "periodLength": "last24Hour",
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": 0,
+                  "resInteractionMode": null,
+                  "roundDecimals": null,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": true},
+                  "title": "Utilization Data Space /Database Size",
+                  "valueSize": 24,
+                  "visualTheme": 6
+               },
+               "gridsterCoords": {
+                  "h": 4,
+                  "w": 2,
+                  "x": 5,
+                  "y": 6
+               },
+               "height": 210,
+               "id": "6c0511ea-4c22-458d-b9ec-bcf2d1723a89",
+               "title": "Utilization Data Space /Database Size",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "boxColumns": 2,
+                  "boxHeight": null,
+                  "labelSize": 12,
+                  "maxCellCount": 100,
+                  "metric": {
+                     "mode": "resourceKind",
+                     "resourceKindMetrics": [
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel1700-1",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|LocksAwaited",
+                           "metricName": "UTILIZATION|Locks Awaited",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel1700-2",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|LocksHeld",
+                           "metricName": "UTILIZATION|Locks Held",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel1700-3",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|TablesSequentialScanRowsRead",
+                           "metricName": "UTILIZATION|Tables Sequential Scan Rows Read",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel1700-4",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|TablesSequentialScanRowsReadperMinute",
+                           "metricName": "UTILIZATION|Tables Sequential Scan Rows Read per Minute",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel1700-5",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|TablesSequentialScans",
+                           "metricName": "UTILIZATION|Tables Sequential Scans",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        },
+                        {
+                           "colorMethod": 1,
+                           "id": "extModel1700-6",
+                           "isStringMetric": false,
+                           "metricKey": "UTILIZATION|TablesSequentialScansperMinute",
+                           "metricName": "UTILIZATION|Tables Sequential Scans per Minute",
+                           "metricUnitId": null,
+                           "resourceKindId": "resourceKind:id:1_::_",
+                           "resourceKindName": "PostgreSQL Database",
+                           "unit": null
+                        }
+                     ],
+                     "resourceMetrics": []
+                  },
+                  "mode": {"layoutMode": "fixedView"},
+                  "periodLength": null,
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "relationshipMode": 0,
+                  "resInteractionMode": null,
+                  "roundDecimals": 1,
+                  "selfProvider": {"selfProvider": false},
+                  "showDT": {"showDT": false},
+                  "showMetricName": {"showMetricName": true},
+                  "showMetricUnit": {"showMetricUnit": true},
+                  "showResourceName": {"showResourceName": false},
+                  "showSparkline": {"showSparkline": false},
+                  "title": "Utilization Locks /Tables",
+                  "valueSize": 24,
+                  "visualTheme": 6
+               },
+               "gridsterCoords": {
+                  "h": 5,
+                  "w": 2,
+                  "x": 5,
+                  "y": 10
+               },
+               "height": 267,
+               "id": "d175db76-15ff-4912-9479-108110bb8920",
+               "title": "Utilization Locks /Tables",
+               "type": "Scoreboard"
+            },
+            {
+               "collapsed": false,
+               "config": {},
+               "gridsterCoords": {
+                  "h": 3,
+                  "w": 4,
+                  "x": 1,
+                  "y": 12
+               },
+               "height": 153,
+               "id": "a79c3bfd-a12e-4a62-9894-7e669861dfbe",
+               "title": "Top Alerts",
+               "type": "ProblemAlertsList"
+            },
+            {
+               "collapsed": false,
+               "config": {
+                  "configs": [{
+                     "attributeKind": {"value": ""},
+                     "color": {
+                        "maxValue": 100,
+                        "minValue": 0,
+                        "thresholds": {
+                           "colors": [
+                              "#FF0000",
+                              "#888800",
+                              "#00FF00"
+                           ],
+                           "values": [
+                              0,
+                              50,
+                              100
+                           ]
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "AVAILABILITY|ResourceAvailability",
+                        "value": "AVAILABILITY|Resource Availability"
+                     },
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "id": "004null002014EP Ops AdapterPostgreSQL Database",
+                        "originalText": "PostgreSQL Database",
+                        "parentId": "EP Ops Adapter",
+                        "parentText": "EP Ops Adapter",
+                        "text": "PostgreSQL Database",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:1_::_"
+                     },
+                     "id": "extModel2759-1",
+                     "mode": {"mode": false},
+                     "name": "Database Availability",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:1_::_",
+                     "sizeBy": {
+                        "metricKey": "UTILIZATION|DatabaseSize",
+                        "value": "UTILIZATION|Database Size (bytes)"
+                     },
+                     "solidColoring": false,
+                     "tagFilter": null,
+                     "thenBy": null
+                  }],
+                  "refreshContent": {"refreshContent": false},
+                  "refreshInterval": 300,
+                  "title": "Database Availability",
+                  "value": 0
+               },
+               "gridsterCoords": {
+                  "h": 3,
+                  "w": 2,
+                  "x": 1,
+                  "y": 2
+               },
+               "height": 153,
+               "id": "7037d4bd-efda-425c-bb02-74e66fb9cc00",
+               "states": [{
+                  "key": "perm_HeatMap_widget_6f5eb954-25c0-4452-9ff0-46f114a0f433_7037d4bd-efda-425c-bb02-74e66fb9cc00",
+                  "value": "o%3A"
+               }],
+               "title": "Database Availability",
+               "type": "Heatmap"
+            }
+         ]
+      }
+   ],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "EP Ops Adapter",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "PostgreSQL"
+      },
+      {
+         "adapterKindKey": "EP Ops Adapter",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "PostgreSQL Database"
+      }
+   ]},
+   "uuid": "9cc5ae90-3d4a-416f-ab40-9f7197b1e915"
+}
